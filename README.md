@@ -20,3 +20,5 @@
     ModifiedAdam.py - contains an altered ADAM optimizer class which has gradient tracking functionality.
  
     ModifiedVQE.py - contains an altered VQE which makes use of the modified ADAM optimizer to utilize the gradients from the optimization procedure.
+    
+    Graphing.py - contains the method for plotting the provided results on a series of subplots to display graphically
