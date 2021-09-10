@@ -22,3 +22,5 @@
     ModifiedVQE.py - contains an altered VQE which makes use of the modified ADAM optimizer to utilize the gradients from the optimization procedure.
     
     Graphing.py - contains the method for plotting the provided results on a series of subplots to display graphically
+    
+    Graphed Results Folder - contains subfolders of the graphically represented results of the different entanglement settings for each model 
