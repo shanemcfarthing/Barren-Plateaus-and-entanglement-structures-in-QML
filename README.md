@@ -5,9 +5,11 @@
  
     qiskit
     
-    qiskit_nature
+    qiskit_machine_learning
     
-    pyscf
+    sklearn
+    
+    matplotlib
     
     numpy
  
@@ -15,12 +17,11 @@
  
     Project.py - contains the main program of the project and is the file that should be run.
  
-    Configuration.py - contains helper classes and functions.
+    AlteredSPSA.py - contains a subclass of the SPSA optimizer. The functionality is the same as SPSA, with the one change being that the minimize
+                     method tracks and returns the gradients and loss values computed at each iteration.
  
-    ModifiedAdam.py - contains an altered ADAM optimizer class which has gradient tracking functionality.
+    Plot.py - contains two functions for plotting the results on graphs
  
-    ModifiedVQE.py - contains an altered VQE which makes use of the modified ADAM optimizer to utilize the gradients from the optimization procedure.
+    PlottingDataResults.py - contains the code to process and plot the results of the main program using the methods from Plot.py
     
-    Graphing.py - contains the method for plotting the provided results on a series of subplots to display graphically
-    
-    Graphed Results Folder - contains subfolders of the graphically represented results of the different entanglement settings for each model 
+    Tracking.py - contains the TrackingResult class, as well as the methods for generating new datasets as well as creating and training the VQC's.
