@@ -12,16 +12,24 @@
     matplotlib
     
     numpy
+    
+    itertools
+    
+    timeit
+    
+    pandas
  
  Breakdown of Files:
  
-    Project.py - contains the main program of the project and is the file that should be run.
+    Barren Plateaus in Quantum Machine Learning.ipynb -  This is the jupyter notebook containing the project and project code
  
-    AlteredSPSA.py - contains a subclass of the SPSA optimizer. The functionality is the same as SPSA, with the one change being that the minimize
-                     method tracks and returns the gradients and loss values computed at each iteration.
- 
-    Plot.py - contains two functions for plotting the results on graphs
- 
-    PlottingDataResults.py - contains the code to process and plot the results of the main program using the methods from Plot.py
+    AlteredADAM.py - This python file contains a version of the Adam optimizer, using the Qiskit implementation, but with the added functionality 
+                     of tracking and returning the gradients which are calculated at each training iteration. This file also contains the TrackingResult
+                     class, instances of which hold all of the relevant information and results for each quantum circuit that is run.
+                     
+    Datasets - This folder contains the datasets.txt file, which is holds the pickled dictionary of datasets used in the project.
     
-    Tracking.py - contains the TrackingResult class, as well as the methods for generating new datasets as well as creating and training the VQC's.
+    Parameters - Within its subfolders are contained the adam_params.csv files for each circuit that is run. These files hold the parameters which are
+                 generated and used at each iteration of the optimization process for the variational quantum circuits.
+    
+    Results - Within its subfolders are the text files which contain the pickled TrackingResult objects for each trained VQC.
