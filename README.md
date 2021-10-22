@@ -1,5 +1,12 @@
 # Honours Project
- Contains the code for investigating the entanglement threshhold in variational forms.
+ In this investigation, the linear, full, circular, and shifted-circular-alternating entanglement schemes offered by qiskit are utilised to construct
+ Variational Quantum Circuits, with the purpose of observing how the choice of entanglement scheme affects the occurrence of barren plateaus when training
+ these circuits. 
+ 
+ For each circuit, the von Neumann Entropy of Entanglement is also calculated at each training iteration, and this is compared with the variance of the gradients 
+ calculated during the optimisation so that the relationship between entanglement in the system and the occurrence of barren plateaus can be investigated, with 
+ respect to the different entanglement schemes used.
+ 
  
  Required Packages: 
  
