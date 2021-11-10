@@ -32,8 +32,8 @@
  
     Barren Plateaus in Quantum Machine Learning.ipynb -  This is the jupyter notebook containing the project and project code
  
-    AlteredADAM.py - This python file contains a version of the Adam optimizer, using the Qiskit implementation, but with the added functionality 
-                     of tracking and returning the gradients which are calculated at each training iteration. This file also contains the TrackingResult
+    AlteredADAM.py - This python file contains a version of the SPSA optimizer, using the Qiskit implementation, but with the added functionality 
+                     of saving the parameters to a csv file called 'spsa_params.csv'. This file also contains the TrackingResult
                      class, instances of which hold all of the relevant information and results for each quantum circuit that is run.
                      
     Datasets - This folder contains the datasets.txt file, which is holds the pickled dictionary of datasets used in the project.
