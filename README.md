@@ -16,17 +16,7 @@
     
     pylatexenc
     
-    sklearn
-    
     matplotlib
-    
-    numpy
-    
-    itertools
-    
-    timeit
-    
-    pandas
  
  Breakdown of Files:
  
