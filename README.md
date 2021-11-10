@@ -14,6 +14,8 @@
     
     qiskit_machine_learning
     
+    pylatexenc
+    
     sklearn
     
     matplotlib
