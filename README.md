@@ -11,11 +11,9 @@
  Required Packages: 
  
     qiskit
-    
     qiskit_machine_learning
-    
+    qutip
     pylatexenc
-    
     matplotlib
  
  Breakdown of Files:
