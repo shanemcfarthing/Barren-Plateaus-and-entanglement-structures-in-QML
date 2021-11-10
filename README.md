@@ -1,4 +1,4 @@
-# Honours Project
+# Barren Plateaus and entanglement structures in QML
  In this investigation, the linear, full, circular, and shifted-circular-alternating entanglement schemes offered by qiskit are utilised to construct
  Variational Quantum Circuits, with the purpose of observing how the choice of entanglement scheme affects the occurrence of barren plateaus when training
  these circuits. 
