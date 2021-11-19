@@ -43,7 +43,7 @@
  Running instructions:
  
     Open Jupyter Notebook using the command 'jupyter notebook' in a terminal. This opens jupter notebook in a browser interface, and then you can use
-    the accompanying file explorer to open the  file.
+    the accompanying file explorer to open the 'Barren Plateaus in Quantum Machine Learning.ipynb' file.
  
  Breakdown of Files:
  
