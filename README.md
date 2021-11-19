@@ -12,8 +12,8 @@
  
  Important Note: 
  
-    Please ensure that the correct versions of python and joblib are used, as the reading of the precomputed results relies on these two. This has been confirmed to
-    work with the versions listed below, but has not been tested with any other versions and so you may encounter issues if other versions are used.
+   Please ensure that the correct versions of python and joblib are used, as the reading of the precomputed results relies on these two. This has been confirmed to
+   work with the versions listed below, but has not been tested with any other versions and so you may encounter issues if other versions are used.
  
  Software requirements:
     
