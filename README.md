@@ -1,4 +1,4 @@
-# Barren Plateaus and entanglement structures in QML
+# A comparison of ansatz entanglement structures for mitigating barren plateaus in Quantum Machine Learning
  In this investigation, the linear, full, circular, and shifted-circular-alternating entanglement schemes offered by qiskit are utilised to construct
  Variational Quantum Circuits, with the purpose of observing how the choice of entanglement scheme affects the occurrence of barren plateaus when training
  these circuits. 
@@ -7,14 +7,30 @@
  calculated during the optimisation so that the relationship between entanglement in the system and the occurrence of barren plateaus can be investigated, with 
  respect to the different entanglement schemes used.
  
+ Below are the software and library requirements to run the code in the Jupyter Notebook for the project. All of the versions with which this code was developed
+ and tested with are included for completeness. 
  
- Required Packages: 
+ Important Note: 
  
-    qiskit
-    qiskit_machine_learning
-    qutip
-    pylatexenc
-    matplotlib
+ Please ensure that the correct versions of python and joblib are used, as the reading of the precomputed results relies on these two. This has been confirmed to
+ work with the versions listed below, but has not been tested with any other versions and so you may encounter issues if other versions are used.
+ 
+ Software requirements:
+    
+    python=3.8.8
+    jupyter notebook
+ 
+ Library requirements:
+ 
+    qiskit=0.31.0
+    qiskit_machine_learning=0.2.1
+    joblib=1.0.1
+    qutip=4.6.2
+    pylatexenc=2.10
+    matplotlib=3.3.4
+    pandas=1.2.4
+    numpy=1.20.1 (should automatically be installed as a dependency of qiskit)
+    sklearn=1.0.1 (should automatically be installed as a dependency of qiskit_machine_learning)
  
  Breakdown of Files:
  
