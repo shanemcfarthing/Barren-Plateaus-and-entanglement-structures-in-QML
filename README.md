@@ -34,11 +34,11 @@
     
  Recommendation for installing dependencies:
   
-   1.) Download and install the Anaconda individual edition, which will include python and Jupyter Notebook.
-   2.) Add the 'conda-forge' channel to conda sources using the 'conda config --add channels conda-forge' command, thereby allowing the installation
-       of libraries without Visual Studio.
-   3.) Run the command 'conda install x' command for each of the dependencies listed above (substituting the libary name and version for x,
-       in the format 'name=version'), except for jupyter notebook as this was installed with anaconda.
+    1.) Download and install the Anaconda individual edition, which will include python and Jupyter Notebook.
+    2.) Add the 'conda-forge' channel to conda sources using the 'conda config --add channels conda-forge' command, thereby allowing the installation
+        of libraries without Visual Studio.
+    3.) Run the command 'conda install x' command for each of the dependencies listed above (substituting the libary name and version for x,
+        in the format 'name=version'), except for jupyter notebook as this was installed with anaconda.
         
  Running instructions:
  
